@@ -1,0 +1,114 @@
+.hp_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hp_direct_seeding_container{
+    background: #3225a8;
+    padding: 30px;
+}
+.hp_direct_seeding_container::after,.step_block::after{
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    content: "";
+    clear: both;
+    height: 0;
+}
+.step_data_block{width: 890px;margin-left: 10px;}
+.rePlay{
+    background:#f06b6b;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer_title{
+    margin-top: 15px;
+}
+.hp_list_item:not(:last-child){
+    margin-bottom: 15px;
+}
+.hp_list_text p{
+    margin: 10px 0;
+}
+.hp_list_text p:first-child{
+    font-size: 20px;
+}
+.hp_direct_seeding,.hp_video_list{
+    float: left;
+}
+.hp_list_video,.hp_list_text{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.hp_list_text{
+    width: 190px;
+    margin-left: 10px;
+}
+.hp_direct_seeding{
+    width: 680px;
+}
+.color_w{
+    color: #fff;
+}
+.hp_video_list{
+    margin: 60px 0 0 20px;
+    width:400px;
+    padding: 20px;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg,#6556e7, #1c31a8);
+}
+.step_block{
+    background: #071046;
+}
+
+.f_l{
+    float: left;
+}
+.step_data_list{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: #fff;
+    padding:10px;
+    border-radius: 4px;
+    margin: 0 70px 30px 0;
+}
+.checkDetail:hover{
+    cursor: pointer;
+}
+.checkDetail{
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    right: 20px;
+    color: #3225a8;
+}
+.text_circle_dot{
+    position: relative;
+    padding-left: 15px;
+}
+.text_circle_dot::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3225a8;
+    left: 0;
+    top:50%;
+    margin-top: -5px;
+}
+.next-slick .h3, .h4 {
+    background: #4F74B3;
+    color: #fff;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.next-slick .h4 {
+    margin-right: 5px;
+    position: relative;
+}

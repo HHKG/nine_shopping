@@ -1,0 +1,88 @@
+.Lp_container{
+    width: 1200px;
+    margin: 60px auto 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Lp_container_list{
+    background-color: #e3e5f0;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.making_order{
+    background-color: royalblue !important;
+    color: #fff;
+}
+.Lp_container_list::after{
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+    display: block;
+}
+.Lp_text,.Lp_logo{
+    float: left;
+}
+.lp_text_header{
+    line-height: 65px;
+}
+.lp_text_header h4{
+    display: inline-block;
+}
+.lp_text_header span:hover{
+    cursor: pointer;
+}
+.lp_text_header span{
+   float: right;
+   line-height: 95px;
+   color:royalblue;
+   margin-right: 30px;
+}
+.active_detail{
+    position: relative;
+}
+.active_detail p{
+    margin: 0;
+    padding: 0;
+}
+.active_detail p{
+    padding-left: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.active_detail p::after{
+    content: "";
+    left:0;
+    top: 50%;
+    margin-top: -10px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('../../static/images/small_logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.active_detail .btn{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
+.Lp_text{width: 820px;padding-left: 30px;}
+.Lp_text .btn{
+    padding: 5px 20px;
+    border-radius: 35px;
+    border: hidden;
+    background: #e3e5f0;
+}
+.Lp_text .btn:hover{
+    cursor: pointer;
+}
+.Lp_text .button_waiting{
+   border: 1px solid royalblue;
+   color: royalblue;
+}

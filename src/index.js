@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import LogisticsPerference from './components/LogisticsPreference/LogisticsPreference';
+import HomePage from './components/HomePage/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <LogisticsPerference></LogisticsPerference> */}
+    <HomePage></HomePage>
   </React.StrictMode>,
   document.getElementById('root')
 );
